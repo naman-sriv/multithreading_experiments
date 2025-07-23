@@ -4,7 +4,7 @@ public class ThreadPoolTest {
 
     public static void main(String[] args) throws InterruptedException{
 
-        CustomThreadPool customThreadPool = new CustomThreadPool(10);
+        CustomThreadPool customThreadPool = new CustomThreadPool(10, 100);
 
         for(int i=0; i<10;i++){
             int taskId = i;
