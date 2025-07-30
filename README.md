@@ -50,22 +50,6 @@ multithreading_experiments/
 - Each subdirectory contains a related experiment or example.
 - Benchmarks and analysis scripts can be found in `benchmarks/`.
 
-## Usage
-
-Navigate to the desired experiment's folder and follow language-specific instructions. For example:
-
-```bash
-cd experiment1/
-python thread_example.py
-```
-
-Or for C++:
-
-```bash
-cd experiment2/
-g++ -std=c++11 thread_example.cpp -o thread_example -lpthread
-./thread_example
-```
 
 ## Experiments
 
